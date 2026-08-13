@@ -3,6 +3,7 @@
 #
 # Binaries for programs and plugins
 resources/*
+node_modules/
 *.exe
 *.exe~
 *.dll
