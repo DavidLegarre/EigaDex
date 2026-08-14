@@ -1,8 +1,11 @@
+import PreviewShow from "../components/show/PreviewShow";
+
 function Home() {
-return (
-    <>
-    </>
-)
+  return (
+    <div>
+      <PreviewShow></PreviewShow>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
