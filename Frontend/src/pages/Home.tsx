@@ -1,9 +1,14 @@
-import PreviewShow from "../components/show/PreviewShow";
+import ShowCard from "../components/show/ShowCard";
+import "./Home.css";
 
 function Home() {
   return (
-    <div>
-      <PreviewShow></PreviewShow>
+    <div className="ShowCardContainer">
+      <ShowCard></ShowCard>
+      <ShowCard></ShowCard>
+      <ShowCard></ShowCard>
+      <ShowCard></ShowCard>
+      <ShowCard></ShowCard>
     </div>
   );
 }

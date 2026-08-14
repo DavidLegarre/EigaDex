@@ -1,40 +1,43 @@
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img {
-  width: 6rem;
+    width: 6rem;
 }
 
 .headerBar {
-  background-color: var(--primary-background);
-  display: flex;
+    background-color: var(--primary-background);
+    display: flex;
+    margin-bottom: 2rem;
 }
 
 .headerBar .logo {
-  display: flex;
+    display: flex;
 }
 
 .pageNavigator {
-  display: flex;
-  margin-left: auto;
-  align-items: center;
-  gap: 1.5rem;
-  font-family: var(--body-font);
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    gap: 1.5rem;
+    font-family: var(--body-font);
 }
 
 .userIcon {
-  display: flex;
-  margin-left: auto;
-  margin-right: 2rem;
-  align-items: center;
-  font-family: var(--body-font);
+    display: flex;
+    margin-left: auto;
+    margin-right: 2rem;
+    align-items: center;
+    font-family: var(--body-font);
 }
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    font-family: var(--label-font);
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
 }

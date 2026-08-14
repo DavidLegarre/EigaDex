@@ -1,34 +1,38 @@
 * {
-  margin: 0;
-  padding: 0;
-  border-radius: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
 }
 
 :root {
-  --background: #7a757b;
+    --background: #7a757b;
 
-  --primary: #dcb8ff;
-  --primary-background: #171a21ff;
+    --primary: #dcb8ff;
+    --primary-background: #171a21ff;
 
-  --secondary: #ffb3b2;
+    --secondary: #ffb3b2;
 
-  --tertiary: #b8c8da;
+    --tertiary: #b8c8da;
 
-  --headline-font: Syne;
-  --body-font: Hanken Grotesk;
-  --label-font: Jetbrains Mono;
+    --headline-font: Syne;
+    --body-font: Hanken Grotesk;
+    --label-font: Jetbrains Mono;
 }
 
 body {
-  background-color: var(--background);
-  color: var(--primary);
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  line-height: 1.6;
+    background-color: var(--background);
+    color: var(--primary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
 }
 
 h1 {
-  font-family: var(--headline-font);
+    font-family: var(--headline-font);
+}
+
+h3 {
+    font-family: var(--headline-font);
 }
 
