@@ -8,17 +8,17 @@
     width: 6rem;
 }
 
-.headerBar {
+.header-bar {
     background-color: var(--primary-background);
     display: flex;
     margin-bottom: 2rem;
 }
 
-.headerBar .logo {
+.header-bar .logo {
     display: flex;
 }
 
-.pageNavigator {
+.page-navigator {
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -26,7 +26,7 @@
     font-family: var(--body-font);
 }
 
-.userIcon {
+.user-icon {
     display: flex;
     margin-left: auto;
     margin-right: 2rem;

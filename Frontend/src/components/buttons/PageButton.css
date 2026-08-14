@@ -1,11 +1,11 @@
-.PageButton {
+.page-button {
     outline: 1px solid transparent;
     transition:
         background-color 0.15s,
         outline-color 0.15s;
 }
 
-.PageButton:hover {
+.page-button:hover {
     background-color: lightgray;
     outline: 1px solid gray;
 }

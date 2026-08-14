@@ -1,7 +1,6 @@
-.ShowCardContainer {
+.show-card-row {
     display: flex;
     gap: 2rem;
     overflow-x: auto;
-    flex: 0 0 auto;
 }
 

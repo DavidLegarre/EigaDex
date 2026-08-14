@@ -3,11 +3,11 @@ import "./PageButton.css";
 
 function PageButton({ title, to }: { title: string; to: string }) {
   return (
-    <div className="PageButton">
+    <div className="page-button">
       <div>
         <NavLink
           to={to}
-          className={({ isActive }) => (isActive ? "active" : "")}
+          className={({ isActive }) => (isActive ? "page-button--active" : "")}
         >
           {title}
         </NavLink>

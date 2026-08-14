@@ -10,19 +10,19 @@ function App() {
   return (
     <>
       <header>
-        <div className="headerBar">
+        <div className="header-bar">
           <div className="logo">
             <img src="/favicon.svg" width="2rem" alt="" />
             <h1>EigaDex</h1>
           </div>
-          <div className="pageNavigator">
+          <div className="page-navigator">
             <PageButton title="Home" to="/" />
             <PageButton title="Catalogue" to="/catalogue" />
             <PageButton title="Dashboard" to="/dashboard" />
             <PageButton title="My Library" to="/my-library" />
           </div>
-          <div className="searchButton"></div>
-          <div className="userIcon">icon</div>
+          <div className="search-button"></div>
+          <div className="user-icon">icon</div>
         </div>
       </header>
       <main>

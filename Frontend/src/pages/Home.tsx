@@ -3,12 +3,10 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className="ShowCardContainer">
-      <ShowCard></ShowCard>
-      <ShowCard></ShowCard>
-      <ShowCard></ShowCard>
-      <ShowCard></ShowCard>
-      <ShowCard></ShowCard>
+    <div className="show-card-row">
+      {Array.from({ length: 8 }, (_, i) => (
+        <ShowCard key={i} />
+      ))}
     </div>
   );
 }
