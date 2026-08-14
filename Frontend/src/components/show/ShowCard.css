@@ -1,0 +1,18 @@
+.ShowCard {
+    width: clamp(160px, 18vw, 280px);
+    min-width: 0;
+    flex: 0 0 auto;
+}
+
+.ShowCard img {
+    width: 100%;
+}
+
+.title {
+    font-family: var(--headline-font);
+}
+.description {
+    width: 100%;
+    overflow-wrap: break-word;
+    font-family: var(--body-font);
+}
