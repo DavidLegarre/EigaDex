@@ -2,17 +2,54 @@
     width: clamp(160px, 18vw, 280px);
     min-width: 0;
     flex: 0 0 auto;
+    gap: 2rem;
+    border-radius: 2rem;
 }
 
-.show-card img {
+.show-card:hover {
+    box-shadow: 0 0 4px 2px var(--primary);
+}
+
+.show-card__poster {
+    height: clamp(240px, 27vw, 420px);
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.show-card__poster img {
     width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .show-card__title {
     font-family: var(--headline-font);
+    color: var(--primary-70);
+    margin-top: 1rem;
 }
+
 .show-card__description {
     width: 100%;
     overflow-wrap: break-word;
     font-family: var(--body-font);
+    color: var(--primary-90);
+    margin-top: 0.5rem;
+}
+
+.text-box-show-card {
+    padding-left: 1rem;
+}
+
+.genres-list {
+    display: flex;
+    gap: 0.5rem;
+    font-family: var(--headline-font);
+    align-items: center;
+    vertical-align: middle;
+}
+
+.genre-entry {
+    display: flex;
+    align-items: center;
+    width: 0.75rem;
 }

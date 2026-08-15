@@ -5,9 +5,19 @@
 }
 
 :root {
-    --background: #7a757b;
+    --background: #e9d4ff;
 
     --primary: #dcb8ff;
+    --primary-10: #290947;
+    --primary-20: #3f225e;
+    --primary-30: #573976;
+    --primary-40: #6f518f;
+    --primary-50: #8969aa;
+    --primary-60: #a483c6;
+    --primary-70: #c09de2;
+    --primary-80: #dcb8ff;
+    --primary-90: #efdbff;
+
     --primary-background: #171a21ff;
 
     --secondary: #ffb3b2;
@@ -20,7 +30,7 @@
 }
 
 body {
-    background-color: var(--background);
+    background-color: var(--primary-10);
     color: var(--primary);
     min-height: 100vh;
     display: flex;
@@ -31,8 +41,9 @@ body {
 h1 {
     font-family: var(--headline-font);
 }
-
+h2 {
+    font-family: var(--headline-font);
+}
 h3 {
     font-family: var(--headline-font);
 }
-
